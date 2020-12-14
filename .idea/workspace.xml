@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcd21c68-dd87-4b4f-816a-3661e4f6a17d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/AccesoDatos.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mssql_jdbc_8_2_2_jre11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/administrador/AdministradorDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/administrador/IAdministrativoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/album/AlbumDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/album/IAlbumDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/artista/ArtistaDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/artista/IArtistaDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/cancion/CancionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/cancion/ICancionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/cliente/ClienteDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/cliente/IClienteDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/compositor/CompositorDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/compositor/ICompositorDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/genero/GeneroDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/genero/IGeneroDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/listaReproduccion/IListaReproduccionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/listaReproduccion/ListaReproduccionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/tl/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/utils/Utilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaulDeLosRecuerdos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BaulDeLosRecuerdos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Administrador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/album/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Artista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/artista/Artista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Cancion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/cancion/Cancion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/cliente/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Compositor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/compositor/Compositor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Genero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/genero/Genero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/ListaDeReproduccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/listaReproduccion/ListaDeReproduccion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/tl/Gestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/logic/Gestor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,18 +60,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/compositor/CompositorDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/genero/GeneroDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -124,14 +83,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/artista/ArtistaDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="635">
-              <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+            <state relative-caret-position="414">
+              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/db.props">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="109" lean-forward="true" selection-start-line="1" selection-start-column="109" selection-end-line="1" selection-end-column="109" />
             </state>
           </provider>
         </entry>
@@ -201,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/administrador/AdministradorDao.java" />
         <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/album/AlbumDao.java" />
         <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/artista/ArtistaDao.java" />
+        <option value="$PROJECT_DIR$/src/db.props" />
       </list>
     </option>
   </component>
@@ -255,51 +224,6 @@
               <item name="BaulDeLosRecuerdos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ucenfotec" type="462c0819:PsiDirectoryNode" />
-              <item name="bl" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-              <item name="administrador" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BaulDeLosRecuerdos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BaulDeLosRecuerdos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ucenfotec" type="462c0819:PsiDirectoryNode" />
-              <item name="bl" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-              <item name="album" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BaulDeLosRecuerdos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BaulDeLosRecuerdos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ucenfotec" type="462c0819:PsiDirectoryNode" />
-              <item name="bl" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-              <item name="artista" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BaulDeLosRecuerdos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BaulDeLosRecuerdos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ucenfotec" type="462c0819:PsiDirectoryNode" />
-              <item name="bl" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-              <item name="cancion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BaulDeLosRecuerdos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BaulDeLosRecuerdos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ucenfotec" type="462c0819:PsiDirectoryNode" />
-              <item name="bl" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-              <item name="listaReproduccion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BaulDeLosRecuerdos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BaulDeLosRecuerdos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ucenfotec" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -309,11 +233,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607923185484" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607923664797" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Drivers SqlServer-20201209/Drivers sql server-20201116 (1)/sqljdbc42.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\IdeaProjects\BaulDeLosRecuerdos\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -354,7 +283,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32974428" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -702,11 +631,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/artista/ArtistaDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        <state relative-caret-position="414">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db.props">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="109" lean-forward="true" selection-start-line="1" selection-start-column="109" selection-end-line="1" selection-end-column="109" />
         </state>
       </provider>
     </entry>
