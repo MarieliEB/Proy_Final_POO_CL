@@ -1,7 +1,7 @@
-package cr.ac.ucenfotec.bl;
+package cr.ac.ucenfotec.bl.entities.listaReproduccion;
 
-import cr.ac.ucenfotec.bl.Cancion;
-import cr.ac.ucenfotec.bl.Cliente;
+import cr.ac.ucenfotec.bl.entities.cancion.Cancion;
+import cr.ac.ucenfotec.bl.entities.cliente.Cliente;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

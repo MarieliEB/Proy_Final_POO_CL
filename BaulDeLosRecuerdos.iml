@@ -7,5 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="AccesoDatos" level="project" />
+    <orderEntry type="library" name="mssql-jdbc-8.2.2.jre11" level="project" />
   </component>
 </module>

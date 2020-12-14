@@ -1,4 +1,9 @@
-package cr.ac.ucenfotec.bl;
+package cr.ac.ucenfotec.bl.entities.cancion;
+
+import cr.ac.ucenfotec.bl.entities.compositor.Compositor;
+import cr.ac.ucenfotec.bl.entities.genero.Genero;
+import cr.ac.ucenfotec.bl.entities.album.Album;
+import cr.ac.ucenfotec.bl.entities.artista.Artista;
 
 import java.time.LocalDate;
 
@@ -9,6 +14,7 @@ import java.time.LocalDate;
 
 public class Cancion {
 
+    private int id;
     private Genero genero;
     private Artista artista;
     private Compositor compositor;
@@ -26,6 +32,10 @@ public class Cancion {
     }
 
     public Cancion() {
+    }
+
+    public int getId() {
+        return id;
     }
 
     public Genero getGenero() {
@@ -50,6 +60,10 @@ public class Cancion {
 
     public int getCalificacion() {
         return calificacion;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public void setGenero(Genero genero) {

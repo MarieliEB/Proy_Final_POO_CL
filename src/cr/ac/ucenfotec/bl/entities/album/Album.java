@@ -1,4 +1,7 @@
-package cr.ac.ucenfotec.bl;
+package cr.ac.ucenfotec.bl.entities.album;
+
+import cr.ac.ucenfotec.bl.entities.artista.Artista;
+import cr.ac.ucenfotec.bl.entities.cliente.Cliente;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

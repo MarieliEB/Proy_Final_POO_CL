@@ -1,4 +1,4 @@
-package cr.ac.ucenfotec.bl;
+package cr.ac.ucenfotec.bl.entities.genero;
 
 /** Clase para la creacion de generos musicales
  * @author  Elizabeth Espinoza

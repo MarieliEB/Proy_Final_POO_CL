@@ -2,19 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcd21c68-dd87-4b4f-816a-3661e4f6a17d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/AccesoDatos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mssql_jdbc_8_2_2_jre11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/administrador/AdministradorDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/administrador/IAdministrativoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/album/AlbumDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/album/IAlbumDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/artista/ArtistaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/artista/IArtistaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/cancion/CancionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/cancion/ICancionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/cliente/ClienteDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/cliente/IClienteDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/compositor/CompositorDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/compositor/ICompositorDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/genero/GeneroDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/genero/IGeneroDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/listaReproduccion/IListaReproduccionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/listaReproduccion/ListaReproduccionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/tl/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/utils/Utilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Administrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Administrador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Artista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Artista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Cancion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/Cancion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Compositor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/Compositor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Genero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/Genero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/ListaDeReproduccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/ListaDeReproduccion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Pais.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/Pais.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/dl/Datos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/dl/Datos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaulDeLosRecuerdos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BaulDeLosRecuerdos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Administrador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/album/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Artista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/artista/Artista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Cancion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/cancion/Cancion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/cliente/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Compositor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/compositor/Compositor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Genero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/genero/Genero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/ListaDeReproduccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/listaReproduccion/ListaDeReproduccion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cr/ac/ucenfotec/tl/Gestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/logic/Gestor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,74 +44,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/ListaDeReproduccion.java">
+        <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/listaReproduccion/ListaDeReproduccion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="51">
+              <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/listaReproduccion/ListaReproduccionDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/administrador/Administrador.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/album/Album.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="20" column="119" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="119" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/artista/Artista.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="27" column="47" lean-forward="true" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/compositor/CompositorDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
               <folding>
-                <element signature="e#906#907#0" expanded="true" />
-                <element signature="e#944#945#0" expanded="true" />
-                <element signature="e#1207#1208#0" expanded="true" />
-                <element signature="e#1249#1250#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Pais.java">
+        <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/genero/GeneroDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="68">
+              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Usuario.java">
+        <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/album/AlbumDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="500">
+              <caret line="47" column="9" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="47" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/tl/Gestor.java">
+        <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/artista/ArtistaDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Album.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Artista.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="e#2375#2376#0" expanded="true" />
-                <element signature="e#2411#2412#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Cliente.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="635">
+              <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,31 +137,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Compositor.java">
+        <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/administrador/AdministradorDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="374">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Genero.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Cancion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -157,15 +174,38 @@
         <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Genero.java" />
         <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Pais.java" />
         <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Usuario.java" />
-        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Administrador.java" />
         <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/Cliente.java" />
         <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Album.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/Administrador.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Administrador.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/administrador/Administrador.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/administrador/IAdministrativoDao.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/album/IAlbumDao.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/artista/IArtistaDao.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/cancion/Cancion.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/cancion/ICancionDao.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/cliente/IClienteDao.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/compositor/ICompositorDao.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/genero/IGeneroDao.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/listaReproduccion/IListaReproduccionDao.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/dao/DAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/dao/SqlServerDaoFactory.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/dao/TextFileDaoFactory.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/utils/Utilities.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/cancion/CancionDao.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/cliente/ClienteDao.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/compositor/CompositorDao.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/genero/GeneroDao.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/listaReproduccion/ListaDeReproduccion.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/listaReproduccion/ListaReproduccionDao.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/administrador/AdministradorDao.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/album/AlbumDao.java" />
+        <option value="$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/artista/ArtistaDao.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
     <option name="width" value="1612" />
     <option name="height" value="876" />
   </component>
@@ -175,6 +215,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,16 +235,85 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ucenfotec" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BaulDeLosRecuerdos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaulDeLosRecuerdos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ucenfotec" type="462c0819:PsiDirectoryNode" />
+              <item name="bl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BaulDeLosRecuerdos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaulDeLosRecuerdos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ucenfotec" type="462c0819:PsiDirectoryNode" />
+              <item name="bl" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BaulDeLosRecuerdos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaulDeLosRecuerdos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ucenfotec" type="462c0819:PsiDirectoryNode" />
+              <item name="bl" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+              <item name="administrador" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BaulDeLosRecuerdos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaulDeLosRecuerdos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ucenfotec" type="462c0819:PsiDirectoryNode" />
+              <item name="bl" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+              <item name="album" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BaulDeLosRecuerdos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaulDeLosRecuerdos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ucenfotec" type="462c0819:PsiDirectoryNode" />
+              <item name="bl" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+              <item name="artista" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BaulDeLosRecuerdos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaulDeLosRecuerdos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ucenfotec" type="462c0819:PsiDirectoryNode" />
+              <item name="bl" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+              <item name="cancion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BaulDeLosRecuerdos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaulDeLosRecuerdos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ucenfotec" type="462c0819:PsiDirectoryNode" />
+              <item name="bl" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+              <item name="listaReproduccion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BaulDeLosRecuerdos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaulDeLosRecuerdos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ucenfotec" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606973380298" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607923185484" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Drivers SqlServer-20201209/Drivers sql server-20201116 (1)/sqljdbc42.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -233,13 +344,14 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19601542" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19794345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32974428" />
@@ -264,7 +376,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Cliente.java</url>
+          <url>file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/cliente/Cliente.java</url>
           <line>25</line>
           <properties />
           <option name="timeStamp" value="1" />
@@ -273,100 +385,8 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/dl/Datos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/ui.java" />
-    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/ui/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/tl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Administrador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Album.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Artista.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#2375#2376#0" expanded="true" />
-            <element signature="e#2411#2412#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Cancion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Compositor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Genero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/ListaDeReproduccion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#1207#1208#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/tl.java" />
     <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/Pais.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -381,12 +401,389 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/tl/Gestor.java">
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/compositor/Compositor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="153">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/ui/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/logic/Gestor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/administrador/IAdministrativoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="67" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/album/IAlbumDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/artista/IArtistaDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/cancion/Cancion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+          <folding>
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#1526#1527#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/cliente/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/cliente/IClienteDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/compositor/ICompositorDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/genero/Genero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/genero/IGeneroDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/cancion/ICancionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/listaReproduccion/IListaReproduccionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/dao/DAOFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="30" column="48" lean-forward="true" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/dao/SqlServerDaoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1247#1248#0" expanded="true" />
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+            <element signature="e#1465#1466#0" expanded="true" />
+            <element signature="e#1492#1493#0" expanded="true" />
+            <element signature="e#1548#1549#0" expanded="true" />
+            <element signature="e#1575#1576#0" expanded="true" />
+            <element signature="e#1637#1638#0" expanded="true" />
+            <element signature="e#1664#1665#0" expanded="true" />
+            <element signature="e#1718#1719#0" expanded="true" />
+            <element signature="e#1745#1746#0" expanded="true" />
+            <element signature="e#1821#1822#0" expanded="true" />
+            <element signature="e#1848#1849#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/dao/TextFileDaoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/dl/Datos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/tl/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/utils/Utilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/cancion/CancionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/cliente/ClienteDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/compositor/CompositorDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/genero/GeneroDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/listaReproduccion/ListaDeReproduccion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/administrador/Administrador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/listaReproduccion/ListaReproduccionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/administrador/AdministradorDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/album/Album.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="119" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/artista/Artista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" column="47" lean-forward="true" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/album/AlbumDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="47" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cr/ac/ucenfotec/bl/entities/artista/ArtistaDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>BaulDeLosRecuerdos</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mssql-jdbc-8.2.2.jre11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

@@ -1,4 +1,7 @@
-package cr.ac.ucenfotec.bl;
+package cr.ac.ucenfotec.bl.entities.cliente;
+
+import cr.ac.ucenfotec.bl.Pais;
+import cr.ac.ucenfotec.bl.Usuario;
 
 import java.time.LocalDate;
 

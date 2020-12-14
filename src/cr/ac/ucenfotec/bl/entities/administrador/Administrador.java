@@ -1,4 +1,6 @@
-package cr.ac.ucenfotec.bl;
+package cr.ac.ucenfotec.bl.entities.administrador;
+
+import cr.ac.ucenfotec.bl.Usuario;
 
 /** Clase para la creacion del administrador extiende de Usuario
  * @author  Elizabeth Espinoza

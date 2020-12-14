@@ -1,4 +1,6 @@
-package cr.ac.ucenfotec.bl;
+package cr.ac.ucenfotec.bl.entities.artista;
+
+import cr.ac.ucenfotec.bl.Pais;
 
 import java.time.LocalDate;
 
