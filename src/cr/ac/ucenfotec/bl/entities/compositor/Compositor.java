@@ -1,6 +1,5 @@
 package cr.ac.ucenfotec.bl.entities.compositor;
 
-import cr.ac.ucenfotec.bl.Pais;
 import cr.ac.ucenfotec.bl.entities.artista.Artista;
 
 import java.time.LocalDate;
@@ -12,8 +11,16 @@ import java.time.LocalDate;
 
 public class Compositor extends Artista {
 
-    public Compositor(String nombre, String apellido, String nombreArtistico, LocalDate fechaNacimiento, LocalDate fechaDefuncion, Pais paisNacimiento, String genero, int edad, String descripcion) {
+    public Compositor(String nombre, String apellido, String nombreArtistico, LocalDate fechaNacimiento, LocalDate fechaDefuncion, String paisNacimiento, String genero, int edad, String descripcion) {
         super(nombre, apellido, nombreArtistico, fechaNacimiento, fechaDefuncion, paisNacimiento, genero, edad, descripcion);
+    }
+
+    public Compositor(int id, String nombre, String apellido, String nombreArtistico, LocalDate fechaNacimiento, LocalDate fechaDefuncion, String paisNacimiento, String genero, int edad, String descripcion) {
+        super(id, nombre, apellido, nombreArtistico, fechaNacimiento, fechaDefuncion, paisNacimiento, genero, edad, descripcion);
+    }
+
+    public Compositor(String nombre) {
+        super(nombre);
     }
 
     public Compositor() {

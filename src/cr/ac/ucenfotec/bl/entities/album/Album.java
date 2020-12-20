@@ -12,21 +12,55 @@ import java.util.ArrayList;
  **/
 
 public class Album {
+    private int id;
     private String nombre;
     private LocalDate fechaLanzamiento;
     private ArrayList<Artista> artistas;
     private String imagen;
-    private Cliente cliente;
+    private int idCliente;
 
-    public Album(String nombre, LocalDate fechaLanzamiento, ArrayList<Artista> artistas, String imagen, Cliente cliente) {
+    public Album(int id, String nombre, LocalDate fechaLanzamiento, String imagen, int idCliente) {
+        this.id = id;
         this.nombre = nombre;
         this.fechaLanzamiento = fechaLanzamiento;
         this.artistas = artistas;
         this.imagen = imagen;
-        this.cliente = cliente;
+        this.idCliente = idCliente;
+    }
+
+    public Album( String nombre, LocalDate fechaLanzamiento, String imagen, int idCliente) {
+        this.nombre = nombre;
+        this.fechaLanzamiento = fechaLanzamiento;
+        this.artistas = artistas;
+        this.imagen = imagen;
+        this.idCliente = idCliente;
+    }
+
+    public Album(String nombre) {
+        this.nombre = nombre;
     }
 
     public Album() {
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getIdCliente() {
+        return idCliente;
+    }
+
+    public void setIdCliente(int idCliente) {
+        this.idCliente = idCliente;
+    }
+
+    public Album(Artista nuevoArtista){
+        this.artistas.add(nuevoArtista);
     }
 
     public String getNombre() {
@@ -45,10 +79,6 @@ public class Album {
         return imagen;
     }
 
-    public Cliente getCliente() {
-        return cliente;
-    }
-
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
@@ -65,9 +95,6 @@ public class Album {
         this.imagen = imagen;
     }
 
-    public void setCliente(Cliente cliente) {
-        this.cliente = cliente;
-    }
 
     @Override
     public String toString() {
@@ -76,7 +103,7 @@ public class Album {
                 ", fechaLanzamiento=" + fechaLanzamiento +
                 ", artistas=" + artistas +
                 ", imagen='" + imagen + '\'' +
-                ", cliente=" + cliente +
+                ", cliente=" + idCliente +
                 '}';
     }
 }

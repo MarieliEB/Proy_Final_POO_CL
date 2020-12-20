@@ -6,5 +6,5 @@ public interface IListaReproduccionDao {
     ArrayList<ListaDeReproduccion> listarListaDeReproduccion() throws Exception;
     void registrarListaDeReproduccion(ListaDeReproduccion lr) throws Exception;
     void actualizarListaDeReproduccion(ListaDeReproduccion lr) throws Exception;
-    void borrarListaDeReproduccion(String nombre) throws Exception;
+    void borrarListaDeReproduccion(int id) throws Exception;
 }

@@ -12,7 +12,7 @@ public class AdministradorDao implements IAdministrativoDao{
     @Override
     public void registrarAdministrativo(Administrador a) throws Exception {
         try{
-            String query = "INSERT INTO ADMINISTRADOR (IMAGEN, CORREO, NOMBRE_USUARIO, CONTRASENNA) " +
+            String query = "INSERT INTO ADMINISTRADOR (IMAGEN, CORREO, NOMBRE_USUARIO, CONTRASENNIA) " +
                     "VALUES ('" + a.getImagen() + "','" + a.getCorreoElectronico() + "','"  + a.getNombreUsuario() + "','" + a.getContrasenna() + "')";
             Conector.getConnector(Utilities.getProperties()[0],Utilities.getProperties()[1]).ejecutarSQL(query);
         }

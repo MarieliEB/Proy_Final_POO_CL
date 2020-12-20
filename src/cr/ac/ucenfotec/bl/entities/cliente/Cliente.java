@@ -1,6 +1,5 @@
 package cr.ac.ucenfotec.bl.entities.cliente;
 
-import cr.ac.ucenfotec.bl.Pais;
 import cr.ac.ucenfotec.bl.Usuario;
 
 import java.time.LocalDate;
@@ -16,12 +15,12 @@ public class Cliente extends Usuario {
     private String apellidoUno;
     private String apellidoDos;
     private LocalDate fechaNacimiento;
-    private Pais paisProcedencia;
+    private String paisProcedencia;
     private String identificacion;
     private String codigoVerificacion;
 
     //Constructor
-    public Cliente(String imagen, String correoElectronico, String nombreUsuario, String contrasenna, String nombre, String apellidoUno, String apellidoDos, LocalDate fechaNacimiento, Pais paisProcedencia, String identificacion, String codigoVerificacion) {
+    public Cliente(String imagen, String correoElectronico, String nombreUsuario, String contrasenna, String nombre, String apellidoUno, String apellidoDos, LocalDate fechaNacimiento, String paisProcedencia, String identificacion, String codigoVerificacion) {
         super(imagen, correoElectronico, nombreUsuario, contrasenna);
         this.nombre = nombre;
         this.apellidoUno = apellidoUno;
@@ -32,7 +31,28 @@ public class Cliente extends Usuario {
         this.codigoVerificacion = codigoVerificacion;
     }
 
-    public Cliente(String nombre, String apellidoUno, String apellidoDos, LocalDate fechaNacimiento, Pais paisProcedencia, String identificacion, String codigoVerificacion) {
+    public Cliente( String identificacion) {
+        this.identificacion = identificacion;
+    }
+
+    public Cliente(String nombre, String apellidoUno, String apellidoDos, String identificacion){
+        this.nombre = nombre;
+        this.apellidoUno = apellidoUno;
+        this.apellidoDos = apellidoDos;
+        this.identificacion = identificacion;
+    }
+
+    public Cliente(String imagen, String correoElectronico, String nombreUsuario, String contrasenna, String nombre, String apellidoUno, String apellidoDos, LocalDate fechaNacimiento, String paisProcedencia, String identificacion) {
+        super(imagen, correoElectronico, nombreUsuario, contrasenna);
+        this.nombre = nombre;
+        this.apellidoUno = apellidoUno;
+        this.apellidoDos = apellidoDos;
+        this.fechaNacimiento = fechaNacimiento;
+        this.paisProcedencia = paisProcedencia;
+        this.identificacion = identificacion;
+    }
+
+    public Cliente(String nombre, String apellidoUno, String apellidoDos, LocalDate fechaNacimiento, String  paisProcedencia, String identificacion, String codigoVerificacion) {
         this.nombre = nombre;
         this.apellidoUno = apellidoUno;
         this.apellidoDos = apellidoDos;
@@ -62,7 +82,7 @@ public class Cliente extends Usuario {
         return fechaNacimiento;
     }
 
-    public Pais getPaisProcedencia() {
+    public String getPaisProcedencia() {
         return paisProcedencia;
     }
 
@@ -92,7 +112,7 @@ public class Cliente extends Usuario {
         this.fechaNacimiento = fechaNacimiento;
     }
 
-    public void setPaisProcedencia(Pais paisProcedencia) {
+    public void setPaisProcedencia(String paisProcedencia) {
         this.paisProcedencia = paisProcedencia;
     }
 

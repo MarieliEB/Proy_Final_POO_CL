@@ -15,6 +15,10 @@ public class Genero {
         this.descripcion = descripcion;
     }
 
+    public Genero(String nombre) {
+        this.nombre = nombre;
+    }
+
     public Genero() {
     }
 

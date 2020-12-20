@@ -1,7 +1,5 @@
 package cr.ac.ucenfotec.bl.entities.artista;
 
-import cr.ac.ucenfotec.bl.Pais;
-
 import java.time.LocalDate;
 
 /** Clase para la creacion de artistas
@@ -10,18 +8,18 @@ import java.time.LocalDate;
  **/
 
 public class Artista {
-
+    private int id;
     private String nombre;
     private String apellido;
     private String nombreArtistico;
     private LocalDate fechaNacimiento;
     private LocalDate fechaDefuncion;
-    private Pais paisNacimiento;
+    private String paisNacimiento;
     private String genero;
     private int edad;
     private String descripcion;
 
-    public Artista(String nombre, String apellido, String nombreArtistico, LocalDate fechaNacimiento, LocalDate fechaDefuncion, Pais paisNacimiento, String genero, int edad, String descripcion) {
+    public Artista(String nombre, String apellido, String nombreArtistico, LocalDate fechaNacimiento, LocalDate fechaDefuncion, String paisNacimiento, String genero, int edad, String descripcion) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.nombreArtistico = nombreArtistico;
@@ -33,7 +31,32 @@ public class Artista {
         this.descripcion = descripcion;
     }
 
+    public Artista(int id, String nombre, String apellido, String nombreArtistico, LocalDate fechaNacimiento, LocalDate fechaDefuncion, String paisNacimiento, String genero, int edad, String descripcion) {
+        this.id = id;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.nombreArtistico = nombreArtistico;
+        this.fechaNacimiento = fechaNacimiento;
+        this.fechaDefuncion = fechaDefuncion;
+        this.paisNacimiento = paisNacimiento;
+        this.genero = genero;
+        this.edad = edad;
+        this.descripcion = descripcion;
+    }
+
+    public Artista(String nombre) {
+        this.nombre = nombre;
+    }
+
     public Artista() {
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNombre() {
@@ -56,7 +79,7 @@ public class Artista {
         return fechaDefuncion;
     }
 
-    public Pais getPaisNacimiento() {
+    public String getPaisNacimiento() {
         return paisNacimiento;
     }
 
@@ -92,7 +115,7 @@ public class Artista {
         this.fechaDefuncion = fechaDefuncion;
     }
 
-    public void setPaisNacimiento(Pais paisNacimiento) {
+    public void setPaisNacimiento(String paisNacimiento) {
         this.paisNacimiento = paisNacimiento;
     }
 

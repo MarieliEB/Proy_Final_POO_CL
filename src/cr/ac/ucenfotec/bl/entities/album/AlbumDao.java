@@ -15,46 +15,65 @@ public class AlbumDao implements IAlbumDao {
         ResultSet rs = null;
         try{
             AccesoBD accesoDatos;
-            String query = "SELECT NOMBRE, FECHA_LANZAMIENTO, IMAGEN, ID_CLIENTE FROM ALBUM";
+            String query = "SELECT ID, NOMBRE, FECHA_LANZAMIENTO, IMAGEN, ID_CLIENTE FROM ALBUM";
             accesoDatos= Conector.getConnector(Utilities.getProperties()[0],Utilities.getProperties()[1]);
             rs = accesoDatos.ejecutarSQL(query);
             //recorrer el rs
             while (rs.next()){
-                Album tmpAdministrativo = new Album(rs.getString("NOMBRE"), rs.getDate("FECHA_LANZAMIENTO").toInstant().atZone(ZoneId.systemDefault()).toLocalDate(),
-                        rs.getString("IMAGEN"), rs.getInt("ID_CLIENTE"));
+                Album tmpAlbum = new Album( rs.getInt("ID"),
+                                            rs.getString("NOMBRE"),
+                                            rs.getDate("FECHA_LANZAMIENTO").toInstant().atZone(ZoneId.systemDefault()).toLocalDate(),
+                                            rs.getString("IMAGEN"),
+                                            rs.getInt("ID_CLIENTE"));
                 if(album==null){
                     album = new ArrayList<>();
                 }
-                album.add(tmpAdministrativo);
+                album.add(tmpAlbum);
             }
             return album;
         }
         catch (Exception e){
-            throw e;
+            System.out.println(e.toString());
         }
+        return album;
     }
 
     @Override
     public void registrarAlbum(Album a) throws Exception {
         try{
             String query = "INSERT INTO ALBUM (NOMBRE, FECHA_LANZAMIENTO, IMAGEN, ID_CLIENTE) " +
-                    "VALUES ('" + a.getNombre() + "','" + a.getImagen() + "','"  + a.getFechaLanzamiento() + "','" + a.getImagen() + "')";
+                    "VALUES ('" + a.getNombre() +  "','"  + a.getFechaLanzamiento() + "','" + a.getImagen() + "','" + a.getIdCliente() + "')";
             Conector.getConnector(Utilities.getProperties()[0],Utilities.getProperties()[1]).ejecutarSQL(query);
         }
         catch (SQLException e){
-            throw e;
+            System.out.println(e.toString());
         }
         catch (Exception e){
+            System.out.println(e.toString());
         }
     }
 
     @Override
-    public void actualizarAlbum(Album c) throws Exception {
-
+    public void actualizarAlbum(Album a) throws Exception {
+        try {
+            String query =  "UPDATE ALBUM SET  NOMBRE = '" + a.getNombre() + "',FECHA_LANZAMIENTO = '" +  a.getFechaLanzamiento()
+                    + "', IMAGEN = '" + a.getImagen() + "', ID_CLIENTE = '" + a.getIdCliente()
+                    + "' WHERE ID = '" + a.getId();
+            Conector.getConnector(Utilities.getProperties()[0],Utilities.getProperties()[1]).ejecutarSQL(query);
+        }catch (Exception e){
+            System.out.println(e.toString());
+        }
     }
 
     @Override
-    public void borrarAlbum(String nombre) throws Exception {
+    public void borrarAlbum(int id) throws Exception {
+        try {
+            String query =  "DELETE FROM ALBUM   WHERE ID = '" + id;
 
+            Conector.getConnector(Utilities.getProperties()[0],Utilities.getProperties()[1]).ejecutarSQL(query);
+
+        } catch (Exception e) {
+            System.out.println(e.toString());
+        }
     }
 }

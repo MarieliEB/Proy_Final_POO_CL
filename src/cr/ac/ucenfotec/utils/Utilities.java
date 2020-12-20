@@ -26,6 +26,6 @@ public class Utilities {
     public static String getMotorDB() throws Exception{
         Properties prop = new Properties();
         prop.load(new FileInputStream("db.props"));
-        return prop.getProperty("persistencia");
+        return prop.getProperty("tipoPersistencia");
     }
 }

@@ -11,15 +11,17 @@ import cr.ac.ucenfotec.bl.entities.genero.IGeneroDao;
 import cr.ac.ucenfotec.bl.entities.listaReproduccion.IListaReproduccionDao;
 
 public abstract class DAOFactory {
-    public static int SQLSERVER=1;
-    public static int TEXT_FILE = 2;
-
+    public static int MYSQL=1;
+    public static int SQLSERVER=2;
+    public static int TEXT_FILE = 3;
 
     public static DAOFactory getDaoFactory(int whichFactory){
         switch (whichFactory){
             case 1:
-                return new SqlServerDaoFactory();
+                //return new MySqlDaoFactory();
             case 2:
+                return new SqlServerDaoFactory();
+            case 3:
                 return new TextFileDaoFactory();
             default:
                 return null;

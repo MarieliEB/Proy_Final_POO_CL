@@ -31,6 +31,16 @@ public class Cancion {
         this.calificacion = calificacion;
     }
 
+    public Cancion(int id, Genero genero, Artista artista, Compositor compositor, LocalDate fechaLanzamiento, Album album, int calificacion) {
+        this.id = id;
+        this.genero = genero;
+        this.artista = artista;
+        this.compositor = compositor;
+        this.fechaLanzamiento = fechaLanzamiento;
+        this.album = album;
+        this.calificacion = calificacion;
+    }
+
     public Cancion() {
     }
 

@@ -1,0 +1,3 @@
+driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
+url=jdbc:sqlserver://DESKTOP-OJ75G17\SQLEXPRESS;DatabaseName=BAUL_DE_RECUERDOS;user=sa;password=mariEliCenfo
+tipoPersistencia=1

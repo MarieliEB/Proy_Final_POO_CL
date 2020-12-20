@@ -8,5 +8,5 @@ public interface ICompositorDao {
     ArrayList<Compositor> listarCompositor() throws Exception;
     void registrarCompositor(Compositor c) throws Exception;
     void actualizarCompositor(Compositor c) throws Exception;
-    void borrarCompositor(String id) throws Exception;
+    void borrarCompositor(int id) throws Exception;
 }

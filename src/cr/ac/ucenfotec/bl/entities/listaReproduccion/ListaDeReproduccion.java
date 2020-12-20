@@ -13,14 +13,22 @@ import java.util.ArrayList;
 
 public class ListaDeReproduccion {
 
+    private  int id;
     private ArrayList<Cancion> canciones;
     private LocalDate fechaDeCreacion;
     private String nombre;
     private double calificacion;
     private Cliente cliente;
 
-    public ListaDeReproduccion(ArrayList<Cancion> canciones, LocalDate fechaDeCreacion, String nombre, double calificacion, Cliente cliente) {
-        this.canciones = canciones;
+    public ListaDeReproduccion(LocalDate fechaDeCreacion, String nombre, double calificacion, Cliente cliente) {
+        this.fechaDeCreacion = fechaDeCreacion;
+        this.nombre = nombre;
+        this.calificacion = calificacion;
+        this.cliente = cliente;
+    }
+
+    public ListaDeReproduccion(int id, LocalDate fechaDeCreacion, String nombre, double calificacion, Cliente cliente) {
+        this.id = id;
         this.fechaDeCreacion = fechaDeCreacion;
         this.nombre = nombre;
         this.calificacion = calificacion;
@@ -28,6 +36,10 @@ public class ListaDeReproduccion {
     }
 
     public ListaDeReproduccion() {
+    }
+
+    public ListaDeReproduccion(Cancion nuevaCancion){
+        this.canciones.add(nuevaCancion);
     }
 
     public ArrayList<Cancion> getCanciones() {
