@@ -119,11 +119,11 @@ public class Gestor {
         }
     }
 
-    public void actualizarArtista(String nombre, String apellido, String nombreArtistico, LocalDate fechaNacimiento, LocalDate fechaDefuncion, String paisNacimiento, String genero, int edad, String descripcion) throws Exception{
+    public void actualizarArtista(int id, String nombre, String apellido, String nombreArtistico, LocalDate fechaNacimiento, LocalDate fechaDefuncion, String paisNacimiento, String genero, int edad, String descripcion) throws Exception{
         try{
             DAOFactory factory = DAOFactory.getDaoFactory(Integer.parseInt(Utilities.getMotorDB()));
             IArtistaDao dao = factory.getArtistaDAO();
-            dao.actualizarArtista(new Artista(nombre, apellido, nombreArtistico, fechaNacimiento, fechaDefuncion, paisNacimiento, genero, edad, descripcion));
+            dao.actualizarArtista(new Artista(id, nombre, apellido, nombreArtistico, fechaNacimiento, fechaDefuncion, paisNacimiento, genero, edad, descripcion));
         }
         catch (SQLException e){
             throw e;
@@ -133,11 +133,11 @@ public class Gestor {
         }
     }
 
-    public void eliminarArtista(String nombre, String apellido) throws Exception{
+    public void eliminarArtista(int id) throws Exception{
         try{
             DAOFactory factory = DAOFactory.getDaoFactory(Integer.parseInt(Utilities.getMotorDB()));
             IArtistaDao dao = factory.getArtistaDAO();
-            dao.borrarArtista(nombre, apellido);
+            dao.borrarArtista(id);
         }
         catch (SQLException e){
             throw e;
@@ -180,11 +180,11 @@ public class Gestor {
         }
     }
 
-    public void actualizarCompositor(String nombre, String apellido, String nombreArtistico, LocalDate fechaNacimiento, LocalDate fechaDefuncion, String paisNacimiento, String genero, int edad, String descripcion) throws Exception{
+    public void actualizarCompositor(int id, String nombre, String apellido, String nombreArtistico, LocalDate fechaNacimiento, LocalDate fechaDefuncion, String paisNacimiento, String genero, int edad, String descripcion) throws Exception{
         try{
             DAOFactory factory = DAOFactory.getDaoFactory(Integer.parseInt(Utilities.getMotorDB()));
             ICompositorDao dao = factory.getCompositorDAO();
-            dao.actualizarCompositor(new Compositor(nombre, apellido, nombreArtistico, fechaNacimiento, fechaDefuncion, paisNacimiento, genero, edad, descripcion));
+            dao.actualizarCompositor(new Compositor(id, nombre, apellido, nombreArtistico, fechaNacimiento, fechaDefuncion, paisNacimiento, genero, edad, descripcion));
         }
         catch (SQLException e){
             throw e;
@@ -194,11 +194,11 @@ public class Gestor {
         }
     }
 
-    public void eliminarCompositor(String nombre, String apellido) throws Exception{
+    public void eliminarCompositor(int id) throws Exception{
         try{
             DAOFactory factory = DAOFactory.getDaoFactory(Integer.parseInt(Utilities.getMotorDB()));
             ICompositorDao dao = factory.getCompositorDAO();
-            dao.borrarCompositor(nombre, apellido);
+            dao.borrarCompositor(id);
         }
         catch (SQLException e){
             throw e;
@@ -241,11 +241,11 @@ public class Gestor {
         }
     }
 
-    public void actualizarCancion(Genero genero, Artista artista, Compositor compositor, LocalDate fechaLanzamiento, Album album, int calificacion) throws Exception{
+    public void actualizarCancion(int id, Genero genero, Artista artista, Compositor compositor, LocalDate fechaLanzamiento, Album album, int calificacion) throws Exception{
         try{
             DAOFactory factory = DAOFactory.getDaoFactory(Integer.parseInt(Utilities.getMotorDB()));
             ICancionDao dao = factory.getCancionDAO();
-            dao.actualizarCancion(new Cancion(genero, artista, compositor, fechaLanzamiento, album, calificacion));
+            dao.actualizarCancion(new Cancion(id, genero, artista, compositor, fechaLanzamiento, album, calificacion));
         }
         catch (SQLException e){
             throw e;
@@ -369,11 +369,11 @@ public class Gestor {
         }
     }
 
-    public void actualizarListaReproduccion(LocalDate fechaDeCreacion, String nombre, double calificacion, Cliente cliente) throws Exception{
+    public void actualizarListaReproduccion(int id, LocalDate fechaDeCreacion, String nombre, double calificacion, Cliente cliente) throws Exception{
         try{
             DAOFactory factory = DAOFactory.getDaoFactory(Integer.parseInt(Utilities.getMotorDB()));
             IListaReproduccionDao dao = factory.getListaReproduccionDao();
-            dao.actualizarListaDeReproduccion(new ListaDeReproduccion(fechaDeCreacion, nombre, calificacion, cliente));
+            dao.actualizarListaDeReproduccion(new ListaDeReproduccion(id, fechaDeCreacion, nombre, calificacion, cliente));
         }
         catch (SQLException e){
             throw e;
@@ -383,11 +383,11 @@ public class Gestor {
         }
     }
 
-    public void eliminarListaReproduccion(String nombre) throws Exception{
+    public void eliminarListaReproduccion(int id) throws Exception{
         try{
             DAOFactory factory = DAOFactory.getDaoFactory(Integer.parseInt(Utilities.getMotorDB()));
             IListaReproduccionDao dao = factory.getListaReproduccionDao();
-            dao.borrarListaDeReproduccion(nombre);
+            dao.borrarListaDeReproduccion(id);
         }
         catch (SQLException e){
             throw e;

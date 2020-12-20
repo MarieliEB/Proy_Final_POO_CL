@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BibliotecaMusical:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BibliotecaMusical_jar</output-path>
+    <root id="archive" name="BibliotecaMusical.jar">
+      <element id="module-output" name="BibliotecaMusical" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/AccesoDatos/AccesoDatos/out/artifacts/AccesoDatos_jar/AccesoDatos.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/Drivers SqlServer-20201209/Drivers sql server-20201116 (1)/mssql-jdbc-8.2.2.jre11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/Drivers SqlServer-20201209/Drivers sql server-20201116 (1)/mssql-jdbc-8.2.2.jre13.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/Drivers SqlServer-20201209/Drivers sql server-20201116 (1)/mssql-jdbc-8.2.2.jre8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/Drivers SqlServer-20201209/Drivers sql server-20201116 (1)/sqljdbc42.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
