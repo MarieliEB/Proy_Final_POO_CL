@@ -27,15 +27,11 @@ public class Gestor {
 
     //  **************************************   Album    **********************************************************************************
 
-    public String[] getAlbum() throws Exception {
+    public ArrayList<Album> getAlbum() throws Exception {
         try {
             ArrayList<Album> albums =  DAOFactory.getDaoFactory(Integer.parseInt(Utilities.getMotorDB())).getAlbumDAO().listarAlbum();
-            String [] info = new String[albums.size()];
-            int pos = 0;
-            for(Album a : albums){
-                info[pos] = a.toString();
-            }
-            return info;
+
+            return albums;
 
         } catch (SQLException e) {
             throw e;
@@ -88,15 +84,11 @@ public class Gestor {
 
     //  **************************************   Artista   **********************************************************************************
 
-    public String[] getArtista() throws Exception {
+    public ArrayList<Artista> getArtista() throws Exception {
         try {
             ArrayList<Artista> artistas =  DAOFactory.getDaoFactory(Integer.parseInt(Utilities.getMotorDB())).getArtistaDAO().listarArtista();
-            String [] info = new String[artistas.size()];
-            int pos = 0;
-            for(Artista a : artistas){
-                info[pos] = a.toString();
-            }
-            return info;
+
+            return artistas;
 
         } catch (SQLException e) {
             throw e;
@@ -149,15 +141,11 @@ public class Gestor {
 
     //  **************************************   Compositor    **********************************************************************************
 
-    public String[] getCompositor() throws Exception {
+    public ArrayList<Compositor> getCompositor() throws Exception {
         try {
             ArrayList<Compositor> compositores =  DAOFactory.getDaoFactory(Integer.parseInt(Utilities.getMotorDB())).getCompositorDAO().listarCompositor();
-            String [] info = new String[compositores.size()];
-            int pos = 0;
-            for(Compositor c : compositores){
-                info[pos] = c.toString();
-            }
-            return info;
+
+            return compositores;
 
         } catch (SQLException e) {
             throw e;
@@ -210,15 +198,11 @@ public class Gestor {
 
     //  **************************************   Cancion    **********************************************************************************
 
-    public String[] getCancion() throws Exception {
+    public ArrayList<Cancion> getCancion() throws Exception {
         try {
             ArrayList<Cancion> canciones =  DAOFactory.getDaoFactory(Integer.parseInt(Utilities.getMotorDB())).getCancionDAO().listarCancion();
-            String [] info = new String[canciones.size()];
-            int pos = 0;
-            for(Cancion c : canciones){
-                info[pos] = c.toString();
-            }
-            return info;
+
+            return canciones;
 
         } catch (SQLException e) {
             throw e;
@@ -227,11 +211,11 @@ public class Gestor {
         }
     }
 
-    public void registrarCancion(Genero genero, Artista artista, Compositor compositor, LocalDate fechaLanzamiento, Album album, int calificacion) throws Exception{
+    public void registrarCancion(String genero, String artista, String compositor, LocalDate fechaLanzamiento, int calificacion) throws Exception{
         try{
             DAOFactory factory = DAOFactory.getDaoFactory(Integer.parseInt(Utilities.getMotorDB()));
             ICancionDao dao = factory.getCancionDAO();
-            dao.registrarCancion(new Cancion(genero, artista, compositor, fechaLanzamiento, album, calificacion));
+            dao.registrarCancion(new Cancion(new Genero(genero), new Artista(artista) , new Compositor(compositor), fechaLanzamiento, calificacion));
         }
         catch (SQLException e){
             throw e;
@@ -338,15 +322,11 @@ public class Gestor {
 
     //  **************************************   ListaReproduccion    **********************************************************************************
 
-    public String[] getListaReproduccion() throws Exception {
+    public ArrayList<ListaDeReproduccion> getListaReproduccion() throws Exception {
         try {
             ArrayList<ListaDeReproduccion> ldr =  DAOFactory.getDaoFactory(Integer.parseInt(Utilities.getMotorDB())).getListaReproduccionDao().listarListaDeReproduccion();
-            String [] info = new String[ldr.size()];
-            int pos = 0;
-            for(ListaDeReproduccion lr : ldr){
-                info[pos] = lr.toString();
-            }
-            return info;
+
+            return ldr;
 
         } catch (SQLException e) {
             throw e;
@@ -399,16 +379,10 @@ public class Gestor {
 
     //  **************************************   Genero    **********************************************************************************
 
-    public String[] getGenero() throws Exception {
+    public ArrayList<Genero> getGenero() throws Exception {
         try {
             ArrayList<Genero> generos =  DAOFactory.getDaoFactory(Integer.parseInt(Utilities.getMotorDB())).getGeneroDAO().listarGenero();
-            String [] info = new String[generos.size()];
-            int pos = 0;
-            for(Genero g : generos){
-                info[pos] = g.toString();
-            }
-            return info;
-
+            return generos;
         } catch (SQLException e) {
             throw e;
         } catch (Exception e) {

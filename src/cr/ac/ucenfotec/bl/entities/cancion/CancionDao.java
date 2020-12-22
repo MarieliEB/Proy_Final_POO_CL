@@ -51,9 +51,9 @@ public class CancionDao implements ICancionDao {
     @Override
     public void registrarCancion(Cancion c) throws Exception {
         try{
-            String query = "INSERT INTO CANCION (GENERO, ARTISTA_NOMBRE, COMPOSITOR_NOMBRE, FECHA_LANZAMIENTO, NOMBRE_ALBUM, CALIFICACION) " +
+            String query = "INSERT INTO CANCION (GENERO, ARTISTA_NOMBRE, COMPOSITOR_NOMBRE, FECHA_LANZAMIENTO, CALIFICACION) " +
                     "VALUES ('" + c.getGenero() +  "','"  + c.getArtista().getNombre() + "','" + c.getCompositor().getNombre() + "','" +
-                    c.getFechaLanzamiento()  + c.getAlbum().getNombre() + "','" + c.getCalificacion() + "')";
+                    c.getFechaLanzamiento() + "','" + c.getCalificacion() + "')";
             Conector.getConnector(Utilities.getProperties()[0],Utilities.getProperties()[1]).ejecutarSQL(query);
         }
         catch (SQLException e){
